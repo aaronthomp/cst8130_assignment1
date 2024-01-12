@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-/**
+/*
  * Student Name: Aaron Thompson
  * Student Number: 041058950
  * Prof: Dr. James Mwangi
  * Assignment 1 - Data Structures
  * Due Date: February 5th 2023
- */
+ **/
 
 /**
  * class for fruit items
@@ -54,7 +54,7 @@ public class Fruit extends FoodItem{
 			}
 			catch(Exception e) {	
 				validInput = false;
-			}}while(validInput == false);
+			}}while(!validInput);
 		return true;
 	}
 	
